@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qr-container{
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    background-color: aliceblue;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#text{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+#qr-image{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
